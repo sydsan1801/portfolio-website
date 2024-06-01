@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Info } from '../../data/data';
-import { Email, FacebookRounded, GitHub, LinkedIn, Phone, Twitter } from '@mui/icons-material';
+import { Email, GitHub,} from '@mui/icons-material';
 import {Tilt} from "react-tilt";
 
 const FooterContainer=styled.div`
@@ -36,10 +35,10 @@ const Logo=styled.div`
     
 `;
 
-const SocialMediaIcons=styled.div`
-    display:flex;
-    margin-top:1rem;
-`;
+// const SocialMediaIcons=styled.div`
+//     display:flex;
+//     margin-top:1rem;
+// `;
 const SocialMediaIcon=styled.a`
     display:inline-block;
     margin:0 1rem;
@@ -190,10 +189,7 @@ const Footer = () => {
                 </Boxes>
             </BoxContainer>
 
-            
-            <SocialMediaIcons>
-    
-            </SocialMediaIcons>
+        
 
                 
 

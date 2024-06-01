@@ -1,5 +1,5 @@
 import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import styled from 'styled-components';
 
 
@@ -78,7 +78,7 @@ const EducationCard = ({education}) => {
             {education.grade}
         </Grade>
         <Description>
-            {education ?.desc && <Span>{education.desc}</Span>}
+            {education?.desc && <Span>{education.desc}</Span>}
         </Description>
 
     </VerticalTimelineElement>

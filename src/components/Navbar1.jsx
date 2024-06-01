@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { MenuRounded } from '@mui/icons-material'
-import { useTheme } from 'styled-components'
+// import { useTheme } from 'styled-components'
 import { Info } from '../data/data'
 
 const Nav=styled.div`
@@ -132,9 +132,7 @@ const MobileMenu=styled.ul`
 
 const Navbar1 = () => {
     const [isOpen,setIsOpen]=useState(false);
-    const theme=useTheme();
-
-   
+    // const theme=useTheme();
   return (
     <Nav>
         <NavbarContainer>

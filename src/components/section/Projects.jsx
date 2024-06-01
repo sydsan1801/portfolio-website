@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Tilt } from 'react-tilt'
 import { projects } from '../../data/data';
 import ProjectCard from '../cards/ProjectCard';
 
